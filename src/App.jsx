@@ -63,7 +63,9 @@ const Return = () => {
 
     console.log("Session ID:", sessionId);
 
-    fetch(`/session-status?session_id=${sessionId}`)
+    fetch(
+      `https://blndsptbackend.onrender.com/session-status?session_id=${sessionId}`
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log("Session Status Data:", data); // Add this line for debugging
