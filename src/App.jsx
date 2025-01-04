@@ -78,8 +78,9 @@ const Return = () => {
       <section id="success">
         <p>
           We appreciate your business! A confirmation email will be sent to{" "}
-          {customerEmail}. If you have any questions, please email{" "}
-          <a href="mailto:orders@example.com">orders@example.com</a>.
+          {customerEmail}, with your delivery information. If you have any
+          questions, please email{" "}
+          <a href="mailto:dkwon13579@gmail.com">dkwon13579@gmail.com</a>.
         </p>
       </section>
     );
