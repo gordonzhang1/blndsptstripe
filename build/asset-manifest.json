@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/checkout/static/js/main.fcbb24a3.js",
+    "index.html": "/checkout/index.html",
+    "main.fcbb24a3.js.map": "/checkout/static/js/main.fcbb24a3.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.fcbb24a3.js"
+  ]
+}
