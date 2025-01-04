@@ -66,8 +66,12 @@ const Return = () => {
     fetch(`/session-status?session_id=${sessionId}`)
       .then((res) => res.json())
       .then((data) => {
+        console.log("Session Status Data:", data); // Add this line for debugging
         setStatus(data.status);
         setCustomerEmail(data.customer_email);
+      })
+      .catch((error) => {
+        console.error("Error fetching session status:", error); // Add error handling
       });
   }, []);
 
